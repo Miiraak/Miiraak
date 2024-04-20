@@ -1,5 +1,4 @@
-### Hi there 👋
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=miiraak/dark)](https://github.com/anuraghazra/github-readme-stats)
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=miiraak&show_icons=true&theme=github_dark)](https://github.com/anuraghazra/github-readme-stats)
 
 <!--
 **Miiraak/Miiraak** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
