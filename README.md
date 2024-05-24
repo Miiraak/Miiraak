@@ -45,10 +45,12 @@ class Sy < Person
   end
 end
 ```
-
-  ![](https://github-readme-stats.vercel.app/api?username=Miiraak&theme=transparent&hide_border=true&include_all_commits=true&count_private=true)
-  ![](https://github-readme-streak-stats.herokuapp.com/?user=Miiraak&theme=transparent&hide_border=true)
-  ![](https://github-readme-stats.vercel.app/api/top-langs/?username=Miiraak&theme=transparent&hide_border=true&include_all_commits=true&count_private=true&layout=compact)
+<a href="https://github.com/anuraghazra/github-readme-stats">
+  <img align="center" src="https://github-readme-stats.vercel.app/api?username=Miiraak&theme=transparent&hide_border=true&title_color=ffffff&include_all_commits=true&count_private=true" />
+</a>
+<a href="https://github.com/anuraghazra/github-readme-stats">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Miiraak&theme=transparent&hide_border=true&title_color=ffffff&include_all_commits=true&count_private=true&layout=compact" />
+</a>
 
 --- 
 
