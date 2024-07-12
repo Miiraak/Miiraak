@@ -62,7 +62,7 @@ end
   <!-- Monospace Font -->
   <samp>
     <a> C#</a> .
-    <a> MySQL</a> .
+    <a> C</a> .
     <a> Python</a> .
     <a> PowerShell</a> .
     <a> MySQL</a>
