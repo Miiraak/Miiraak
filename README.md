@@ -31,8 +31,9 @@ class Sy < Person
     'Somewhere dude'
   end
 
-  def next_locations
-    ['Near somewhere']
+  def Contacts
+    mail: [ 'miiraak@miiraak.ch' ],
+    discord: [ 'miiraak.' ]
   end
 
   def currently
