@@ -22,13 +22,16 @@ class Sy < Person
   def initialize
     @name = 'Miiraak'
     @age = 24
-    @work = [ 'Looking', 'Note', 'Learn' ]
-    @education = [ 'Live', 'Internet' ]
-    @hobbies = [ 'Code', 'Games', 'Donuts' ]
+    @work = [ 'wandering', 'takeing notes', 'Learning' ]
+    @education = [ 'Life', 'Internet' ]
+    @hobbies = [ 'Coding', 'Games', 'Donuts' ]
   end
 
   def current_location
-    'Somewhere dude'
+    'Somewhere between :
+        0xffff080000000000
+        0xffffffffffffffff
+    '
   end
 
   def Contacts
@@ -38,9 +41,9 @@ class Sy < Person
 
   def currently
     {
-      studying: [ 'Network management', 'C' ],
+      studying: [ 'Network management', 'C', '.NET MAUI' ],
       reading: [ 'Don't really like books' ],
-      tinkering: ['AI', 'Pen Testing', 'Random things' ]
+      tinkering: ['AI', 'FlipperZero', 'Random things' ]
      }
   def 
   end
@@ -66,7 +69,8 @@ end
     <a> C</a> .
     <a> Python</a> .
     <a> PowerShell</a> .
-    <a> MySQL</a>
+    <a> MySQL</a> .
+    <a> XAML</a>
   </samp>
 </p>
 
