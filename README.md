@@ -70,7 +70,8 @@ end
     <a> Python</a> .
     <a> PowerShell</a> .
     <a> MySQL</a> .
-    <a> XAML</a>
+    <a> XAML</a> .
+    <a> Ducky Script</a>
   </samp>
 </p>
 
