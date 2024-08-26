@@ -17,37 +17,51 @@
 
 
 ---
-```
-class Sy < Person
-  def initialize
-    @name = 'Miiraak'
-    @age = 24
-    @work = [ 'wandering', 'takeing notes', 'Learning' ]
-    @education = [ 'Life', 'Internet' ]
-    @hobbies = [ 'Coding', 'Games', 'Donuts' ]
-  end
+```csharp
+using System;
+using System.Collections.Generic;
 
-  def current_location
-    'Somewhere between :
-        0xffff080000000000
-        0xffffffffffffffff
-    '
-  end
+public class Sy : Person
+{
+    private string _name;
+    private int _age;
+    private List<string> _work;
+    private List<string> _education;
+    private List<string> _hobbies;
 
-  def Contacts
-    mail: [ 'miiraak@miiraak.ch' ],
-    discord: [ 'miiraak.' ]
-  end
-
-  def currently
+    public Sy()
     {
-      studying: [ 'Network management', 'C', '.NET MAUI' ],
-      reading: [ 'Don't really like books' ],
-      tinkering: ['AI', 'FlipperZero', 'Random things' ]
-     }
-  def 
-  end
-end
+        _name = "Miiraak";
+        _age = 24;
+        _work = new List<string> { "wandering", "taking notes", "Learning" };
+        _education = new List<string> { "Life", "Internet" };
+        _hobbies = new List<string> { "Coding", "Games", "Donuts" };
+    }
+
+    public string CurrentLocation()
+    {
+        return "Somewhere between:\n    0xffff080000000000\n    0xffffffffffffffff";
+    }
+
+    public Dictionary<string, List<string>> Contacts()
+    {
+        return new Dictionary<string, List<string>>
+        {
+            { "mail", new List<string> { "miiraak@miiraak.ch" } },
+            { "discord", new List<string> { "miiraak." } }
+        };
+    }
+
+    public Dictionary<string, List<string>> Currently()
+    {
+        return new Dictionary<string, List<string>>
+        {
+            { "studying", new List<string> { "Network management", "C", ".NET MAUI" } },
+            { "reading", new List<string> { "Don't really like books" } },
+            { "tinkering", new List<string> { "AI", "FlipperZero", "Random things" } }
+        };
+    }
+}
 ```
 <a href="https://github.com/anuraghazra/github-readme-stats">
   <img align="center" src="https://github-readme-stats.vercel.app/api?username=Miiraak&theme=transparent&hide_border=true&title_color=ffffff&include_all_commits=true&count_private=true" />
