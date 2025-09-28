@@ -48,7 +48,8 @@ public class Sy : Person
         return new Dictionary<string, List<string>>
         {
             { "mail", new List<string> { "miiraak@miiraak.ch" } },
-            { "discord", new List<string> { "I'm banned sorry X,,,X" } } # Contact me on X or by mail.
+            { "discord", new List<string> { "I'm banned sorry X,,,X" } }, # Contact me on X or by mail.
+            { "X.com", new List<string> { "_Miiraak_" } }
         };
     }
 
